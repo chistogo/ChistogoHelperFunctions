@@ -20,7 +20,7 @@ namespace ChistogoHelperFunctions
         /// <param name="form">Control you want to take a screenshot of</param>
         /// <param name="promptSave">Prompt to save the image</param>
         /// <returns>Return a bitmap of the selected control element</returns>
-        public static Bitmap takeScreenShot(Control form , Boolean promptSave = false)
+        public static Bitmap takeScreenshot(Control form , Boolean promptSave = false)
         {
             {
                 int xLocation;
